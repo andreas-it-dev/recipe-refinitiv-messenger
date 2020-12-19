@@ -1,0 +1,14 @@
+{
+  "id": "refinitiv",
+  "name": "Refinitiv.Messenger",
+  "version": "1.0",
+  "description": "Refinitiv.Messenger",
+  "main": "index.js",
+  "author": "Andreas <andreas@alpha-it-solutions.de>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://collab.platform.refinitiv.com/eikonmessenger",
+    "hasDirectMessages": true,
+    "hasIndirectMessages": true
+  }
+}
