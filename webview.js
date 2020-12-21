@@ -2,10 +2,10 @@
 
 module.exports = Franz => {
   const getMessages = function getMessages() {
-    let directMessages = 0;
-    unreads = document.querySelectorAll('.badge.unread-count')
-    unreads.forEach(unread => directMessages += Number(unread.textContent))
-    Franz.setBadge(directMessages);
+    let inDirectMessages = 0;
+    let unreads = document.querySelectorAll('.badge.unread-count')
+    unreads.forEach(unread => inDirectMessages += Number(unread.textContent))
+    Franz.setBadge(0, inDirectMessages);
   };
 
   Franz.loop(getMessages);
